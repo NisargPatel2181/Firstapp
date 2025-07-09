@@ -626,7 +626,7 @@ const Main = ({navigation}: {navigation: any}) => {
                         alignItems: 'center',
                         marginBottom: 15,
                       }}>
-                      <Text style={{color: '#fff'}}>Add Photo</Text>
+                      <Text style={{color: '#fff'}}>Add image</Text>
                     </View>
                   )}
                   <View
