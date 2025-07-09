@@ -221,7 +221,7 @@ const SignIn = ({navigation}: {navigation: any}) => {
           </View>
 
           <View>
-            <Text style={Style.text}>Password:</Text>
+            <Text style={Style.text}>Enter a Password:</Text>
             <InputText
               placeholder="Enter your password"
               value={password}
