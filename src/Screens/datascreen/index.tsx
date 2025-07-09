@@ -579,7 +579,7 @@ export const Data = ({navigation}: {navigation: any}) => {
           )}
 
           <Butt
-            title="Update Data"
+            title="plz change your data"
             onPress={handleupdateData}
             Buttoncolor="#577d95"
             containerStyle={Style.bhome}
