@@ -249,7 +249,7 @@ const SignIn = ({navigation}: {navigation: any}) => {
           />
 
           <View style={Style.signup}>
-            <Text>Don't have an account? </Text>
+            <Text>Don't have an account?  Please create account</Text>
             <TouchableOpacity onPress={() => navigation.navigate('Sign up')}>
               <Text style={{color: '#012d4a', fontWeight: 'bold'}}>
                 Sign up
