@@ -402,7 +402,7 @@ const SignUp = ({navigation}: {navigation: any}) => {
           (user: UserData) => user.email === email,
         );
         if (alreadyExists) {
-          Alert.alert('Error', 'User already exists');
+          Alert.alert('Error', 'User already exists plz sign up directly');
           return;
         }
 
