@@ -40,7 +40,7 @@ const CartScreen = ({ navigation }: { navigation: any }) => {
       <Text style={styles.header}>Your Cart</Text>
 
       {cartItems.length === 0 ? (
-        <Text style={styles.emptyText}>Your cart is empty.</Text>
+        <Text style={styles.emptyText}>please fill your cart.</Text>
       ) : (
         <>
           <FlatList
